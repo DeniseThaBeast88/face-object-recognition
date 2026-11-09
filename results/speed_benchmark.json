@@ -1,0 +1,40 @@
+{
+  "YOLOv10-N objects, input 320": {
+    "mean_ms": 13.361743034329265,
+    "p95_ms": 17.2114392160438
+  },
+  "YOLOv10-N objects, input 480": {
+    "mean_ms": 27.90145750235145,
+    "p95_ms": 31.557071080897
+  },
+  "YOLOv10-N objects, input 640": {
+    "mean_ms": 45.965396403335035,
+    "p95_ms": 52.77273086248897
+  },
+  "MobileNetV3 school bus check (per bus box)": {
+    "mean_ms": 5.5901399891202646,
+    "p95_ms": 5.868170398753136
+  },
+  "YuNet faces, full 1280 x 720": {
+    "mean_ms": 35.36297845421359,
+    "p95_ms": 39.683248929213725
+  },
+  "YuNet faces, shrunk to 640 wide": {
+    "mean_ms": 9.857451900218924,
+    "p95_ms": 14.086191932437941
+  },
+  "Haar cascade faces, full 1280 x 720": {
+    "mean_ms": 218.61910271691158,
+    "p95_ms": 223.78435895079747
+  },
+  "SFace embedding (per face)": {
+    "mean_ms": 19.191018166020513,
+    "p95_ms": 23.095921537606046
+  },
+  "_computer": {
+    "processor": "",
+    "machine": "x86_64",
+    "system": "Linux-6.1.155-x86_64-with-glibc2.43",
+    "opencv": "4.14.0"
+  }
+}

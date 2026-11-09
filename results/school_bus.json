@@ -1,0 +1,1697 @@
+{
+  "images": 110,
+  "positives": 10,
+  "pipeline_at_0.30": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1": 0.9,
+    "tp": 9,
+    "fp": 1,
+    "fn": 1
+  },
+  "pipeline_bus_and_truck_at_0.30": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1": 0.9523809523809523,
+    "tp": 10,
+    "fp": 1,
+    "fn": 0
+  },
+  "detector_only": {
+    "precision": 0.225,
+    "recall": 0.9,
+    "f1": 0.36000000000000004,
+    "tp": 9,
+    "fp": 31,
+    "fn": 1
+  },
+  "classifier_only_whole_image": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1": 0.9523809523809523,
+    "tp": 10,
+    "fp": 1,
+    "fn": 0
+  },
+  "school_bus_photos_with_bus_box": 0.9,
+  "negatives_relabeled": {
+    "trolleybus": 0,
+    "minibus": 0,
+    "ambulance": 0,
+    "fire engine": 0,
+    "police van": 0,
+    "minivan": 0,
+    "moving van": 0,
+    "passenger car": 0,
+    "streetcar": 1,
+    "trailer truck": 0
+  },
+  "negatives_with_bus_box": {
+    "trolleybus": 9,
+    "minibus": 8,
+    "ambulance": 1,
+    "fire engine": 0,
+    "police van": 2,
+    "minivan": 1,
+    "moving van": 1,
+    "passenger car": 3,
+    "streetcar": 6,
+    "trailer truck": 0
+  },
+  "cell_phone_photos_detected": 0.7,
+  "cell_phone_photos": 10,
+  "sweep": [
+    {
+      "precision": 0.6428571428571429,
+      "recall": 0.9,
+      "f1": 0.75,
+      "tp": 9,
+      "fp": 5,
+      "fn": 1,
+      "threshold": 0.05,
+      "bus_truck_precision": 0.6666666666666666,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.8
+    },
+    {
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1": 0.8181818181818182,
+      "tp": 9,
+      "fp": 3,
+      "fn": 1,
+      "threshold": 0.1,
+      "bus_truck_precision": 0.7692307692307693,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.8695652173913044
+    },
+    {
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1": 0.8181818181818182,
+      "tp": 9,
+      "fp": 3,
+      "fn": 1,
+      "threshold": 0.15,
+      "bus_truck_precision": 0.7692307692307693,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.8695652173913044
+    },
+    {
+      "precision": 0.8181818181818182,
+      "recall": 0.9,
+      "f1": 0.8571428571428572,
+      "tp": 9,
+      "fp": 2,
+      "fn": 1,
+      "threshold": 0.2,
+      "bus_truck_precision": 0.8333333333333334,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9090909090909091
+    },
+    {
+      "precision": 0.8181818181818182,
+      "recall": 0.9,
+      "f1": 0.8571428571428572,
+      "tp": 9,
+      "fp": 2,
+      "fn": 1,
+      "threshold": 0.25,
+      "bus_truck_precision": 0.8333333333333334,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9090909090909091
+    },
+    {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9,
+      "tp": 9,
+      "fp": 1,
+      "fn": 1,
+      "threshold": 0.3,
+      "bus_truck_precision": 0.9090909090909091,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9523809523809523
+    },
+    {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9,
+      "tp": 9,
+      "fp": 1,
+      "fn": 1,
+      "threshold": 0.35,
+      "bus_truck_precision": 0.9090909090909091,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9523809523809523
+    },
+    {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9,
+      "tp": 9,
+      "fp": 1,
+      "fn": 1,
+      "threshold": 0.4,
+      "bus_truck_precision": 0.9090909090909091,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9523809523809523
+    },
+    {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1": 0.9,
+      "tp": 9,
+      "fp": 1,
+      "fn": 1,
+      "threshold": 0.45,
+      "bus_truck_precision": 0.9090909090909091,
+      "bus_truck_recall": 1.0,
+      "bus_truck_f1": 0.9523809523809523
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.5,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.9,
+      "bus_truck_f1": 0.9473684210526316
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.55,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.9,
+      "bus_truck_f1": 0.9473684210526316
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.6,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.9,
+      "bus_truck_f1": 0.9473684210526316
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.65,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.9,
+      "bus_truck_f1": 0.9473684210526316
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.7,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.9,
+      "bus_truck_f1": 0.9473684210526316
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "threshold": 0.75,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.8,
+      "bus_truck_f1": 0.888888888888889
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "tp": 6,
+      "fp": 0,
+      "fn": 4,
+      "threshold": 0.8,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.6,
+      "bus_truck_f1": 0.7499999999999999
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285715,
+      "tp": 4,
+      "fp": 0,
+      "fn": 6,
+      "threshold": 0.85,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.4,
+      "bus_truck_f1": 0.5714285714285715
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "threshold": 0.9,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.0,
+      "bus_truck_f1": 0.0
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "threshold": 0.95,
+      "bus_truck_precision": 1.0,
+      "bus_truck_recall": 0.0,
+      "bus_truck_f1": 0.0
+    }
+  ],
+  "records": [
+    {
+      "cls": 779,
+      "file": "0404e5754f6567c1acc24cb551cced5686bb7bc8.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.786,
+      "max_bus_or_truck_prob": 0.786,
+      "whole_top1": "school bus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "11ef09859b41ab7fa6bd0f272e700ced735100da.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.851,
+      "max_bus_or_truck_prob": 0.851,
+      "whole_top1": "school bus",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "14efe67979b3be03e5affd632706cc3b092900d2.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.855,
+      "max_bus_or_truck_prob": 0.871,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "7f66212a159ba5b3f48adfdfefd4a3ed39946978.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.819,
+      "max_bus_or_truck_prob": 0.819,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "a6e5f3c5b2dfa4782509d0108ac38007949c344a.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.846,
+      "max_bus_or_truck_prob": 0.846,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "a9763ecdcc670ae7b26dd6493e86824e9c16cfb2.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.85,
+      "max_bus_or_truck_prob": 0.85,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "ab86c88baa2233a7cc48b06059fa8f4f9b725ec4.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.893,
+      "max_bus_or_truck_prob": 0.893,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "bb3dbb29544777252aba6ed0cf5e0006c4b7ffcc.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.758,
+      "max_bus_or_truck_prob": 0.758,
+      "whole_top1": "school bus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "d9ac433f21e318f729765e9cd7553ef1cf920358.jpeg",
+      "is_school_bus": true,
+      "bus_found": true,
+      "max_bus_prob": 0.453,
+      "max_bus_or_truck_prob": 0.453,
+      "whole_top1": "school bus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 779,
+      "file": "f3eb78e6723996ab1ea3490cd87f79ffb6ed0901.jpeg",
+      "is_school_bus": true,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.74,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "14ded9fd1dbfd3a0f4da18202d67d731fd104a88.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.184,
+      "max_bus_or_truck_prob": 0.184,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "school bus",
+        "traffic light"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "2ce3365dd815eb54fa65b37ced510185488490bf.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.087,
+      "max_bus_or_truck_prob": 0.087,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "425f04670ab745b5f495b6a6fcdab212f618ca3a.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "streetcar",
+      "labels": [
+        "chair"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "436a30f93fbf9cb7255405fd4ce4928f45f80b0b.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.011,
+      "max_bus_or_truck_prob": 0.011,
+      "whole_top1": "streetcar",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "606396c0f56b693edff67893875ba30994a20a80.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.005,
+      "max_bus_or_truck_prob": 0.005,
+      "whole_top1": "streetcar",
+      "labels": [
+        "bench",
+        "car",
+        "fire hydrant",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "8347896a831a9420147e0f5072fce8b33a2b5ecf.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.012,
+      "max_bus_or_truck_prob": 0.012,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "dbca81f556b7b4bbce4885c4776131c617787fb4.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.028,
+      "max_bus_or_truck_prob": 0.028,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "bicycle",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "de08f409fd342335f0a24daab31b0c1a035d0871.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.005,
+      "max_bus_or_truck_prob": 0.005,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "ec65aca488b7b3d0e12c8b220bf995bf590026a0.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.086,
+      "max_bus_or_truck_prob": 0.086,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 874,
+      "file": "feb97bbc88e14938c832815d507a411393168153.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.014,
+      "max_bus_or_truck_prob": 0.014,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "117d49d278892f6f23c2bc21ec92edbf38b23335.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.034,
+      "max_bus_or_truck_prob": 0.034,
+      "whole_top1": "minibus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "42e54c87edc02690dfc1804847fe77f56e27cf2d.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minibus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "43d0d32f1aebf13d03d3d269d3c133e1308c54a5.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "tile roof",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "47ee1b2a5595bcf3c2148632e6faf19121ae582e.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.012,
+      "max_bus_or_truck_prob": 0.013,
+      "whole_top1": "minibus",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "5a13837a2a05dbd28edf4f330b16abf5abee8b9f.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "moving van",
+      "labels": [
+        "car",
+        "school bus",
+        "stop sign"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "852ed8ac24441c6385dd3d26046c91ed8fcc987d.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minibus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "91b42ae95fe7f08e84d3c0d9902ac97af429d2ea.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.031,
+      "max_bus_or_truck_prob": 0.031,
+      "whole_top1": "minibus",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "9cbc8207864238fbd4f6e14f762defd62a317c8c.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "minibus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "f3ac4118b4f00f94f0991cc0b05e948352cb84ad.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "minibus",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 654,
+      "file": "fa36e64375450b557b096f133294b098909a985e.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "minibus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "22ae60a5f8d9f0efae3082e4ec2db3e3e499a76f.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "ambulance",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "234a8fa819e23019af9f5993fc750916bc144a0e.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "beach wagon",
+      "labels": [
+        "car",
+        "school bus",
+        "suitcase"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "79634091911de4af8d825667872f0a05624d5552.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "ambulance",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "799b56e96d41271736c1325c691240d350a08fe3.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.003,
+      "max_bus_or_truck_prob": 0.003,
+      "whole_top1": "ambulance",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "8f4e97af9d7616e04f58225655334ccd9380348f.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "ambulance",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "989ac539020d0d1274d29ab12c6c42c255325872.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "motor scooter",
+      "labels": [
+        "car",
+        "motorcycle",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "b86f0f425abfaf1030dd2d4e61c566646ef06ae5.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "ambulance",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "b87d8e96e8c6251378f249008166d0966d940659.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "police van",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "e6074e99db6bba79be51aed53474d0c9e0b4f090.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 407,
+      "file": "fe5bbee8c0536b2e57d4a3b3d6c8b770712d186a.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "ambulance",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "0e4b0173f10142fe2b1bcaa5ba5489b0c8441183.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "1ce942090cbe22168d741b24ab493f5eb2913a25.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "1ff9c6a9f01028926173eb8049db2c53f69b9163.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "56dc912ca0aac9466b00dd9cdac7a24af2bf8a5c.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.016,
+      "whole_top1": "fire engine",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "8f4dce07a0dfb0a73e7c7ca79aca51505d647763.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "pencil sharpener",
+      "labels": [
+        "cake"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "8ffcdf4af931c149544d6cf8765b5789eeb0b051.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "a268d0583e81f8082d654983dd247402f704bd40.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "bfbd59d3109e7e86ae7e27fab87733326e3d0b9b.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "fire engine",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "f5508e345378499061d4af4ecc55544ad1055a4e.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "garbage truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 555,
+      "file": "f56282c0857249eb828fc9439540ff0f916aaf92.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.003,
+      "whole_top1": "ambulance",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "25afa134638c5392a11a5c21ce847666ad603d4f.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "police van",
+      "labels": [
+        "car",
+        "person"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "33d2d50510aaae27b320ea30447eb462d11546fa.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "sports car",
+      "labels": [
+        "car"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "4d59949ae36a8de91b00228cf1d76473f480515c.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minibus",
+      "labels": [
+        "car",
+        "person"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "5371a7a0149088a8e4a63a3c041d5bac8743d8ce.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "harvester",
+      "labels": []
+    },
+    {
+      "cls": 734,
+      "file": "5afdfe3b88c146f175359b8fc70478328b0dba5d.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.002,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "police van",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "5f00a9dc7a01ca6fdf200be73ca6ee44d5160606.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "garbage truck",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "60bf1b98315d89a9aa495e95e4875235a3f09c05.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "Model T",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "66580aec03a84cbc357f24783a789de6d3831d04.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "police van",
+      "labels": [
+        "car",
+        "school bus",
+        "traffic light"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "ace1ab9ea8adf596bfded66690d3d3fef1bc93a7.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "ambulance",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 734,
+      "file": "ea786e6b674e4e8ccacb1d62b4653726ca72e564.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "police van",
+      "labels": [
+        "car",
+        "motorcycle",
+        "person"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "21da49130ebbb939d7d2aae5089f0cb5feb56d8b.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "church",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "5f430e191cd7323ff1b5f12f2467f3c640a48d3d.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "limousine",
+      "labels": [
+        "person",
+        "train"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "6b7324d356132573918ef2866f66b7ae6785dfad.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.281,
+      "max_bus_or_truck_prob": 0.281,
+      "whole_top1": "school bus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "7925663730b543347f040b19d348a87e9b6c2e0c.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minivan",
+      "labels": [
+        "car",
+        "school bus",
+        "traffic light"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "8c843f0a25abe8ef4b8af1cf21eac05b22297099.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "police van",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "a377124cffbc633093c617bded75d49bcad42070.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minivan",
+      "labels": [
+        "car"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "a6c6b9ebef2c8a2cb080752c58860c98e831b177.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "web site",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "a7099e8d158375a05c0c805600a7e2808aa31638.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "minivan",
+      "labels": [
+        "bicycle",
+        "car"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "d0b3245881a2f734bd62f60f3a3d6cd2489301ef.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "minibus",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 656,
+      "file": "d74adea205e569389ab71fa18ffeb9739878e5c2.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "beach wagon",
+      "labels": [
+        "car"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "00acdd6a95fb6b15d3c9eb38286f6064bb74e851.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus",
+        "train"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "071abd6fa4af8c1a4d67456712f250726fc6eebd.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.003,
+      "whole_top1": "moving van",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "0d6e3c08680b22cfb4dabf84cf51914e2edb5e22.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "snowplow",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "1c232bed89ef7d1a257bd2a698ade3bbd659ba86.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "moving van",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "8a0d053da7a24bee302eed6c34bb6d7c545b47ed.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "b781e67dc5f6f62fc9d3d212cc4afcb5b38b5296.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.003,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "c93f8fb03736a44c920be6e118ca76860351fe28.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "barrow",
+      "labels": [
+        "backpack",
+        "person",
+        "umbrella"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "d1ede0e4cc42070a4bbde34eecfbbf07e6ed5a89.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.005,
+      "whole_top1": "Model T",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "da1843ffda1a1d276391c8964c8d355755187625.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "moving van",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 675,
+      "file": "dedd5f4e29d41199d58dd8ac59453b33fda4c79c.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "moving van",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "2333753212f489fe92174e2f6d29521654d9d7dd.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "thresher",
+      "labels": [
+        "chair"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "33573c7e7fca57e181270d543a6c8efda973924d.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "freight car",
+      "labels": [
+        "train"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "3cd8022c18c4d089650ef4e3825477e58bfdac0a.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "passenger car",
+      "labels": [
+        "person",
+        "train"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "5aa3eb4bd4f65a5dbd337d58ef614e8468c43465.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "streetcar",
+      "labels": [
+        "couch",
+        "person"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "7d22e458172815b6c6cc51a01f02fbbe956a16e8.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "bullet train",
+      "labels": [
+        "person"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "88189414b158809c21f0408e7a8fccfed14aed4b.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.013,
+      "max_bus_or_truck_prob": 0.013,
+      "whole_top1": "passenger car",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "8d850dafe3d54f4a3066604754fe82ae1dd3912a.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "passenger car",
+      "labels": [
+        "person",
+        "train"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "8ff1b7434c31e7fc88c3453ff4123e8ad9c919ba.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.005,
+      "max_bus_or_truck_prob": 0.005,
+      "whole_top1": "passenger car",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "a4e85643dc671edb0e440f2f5d75a265475f9b14.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.034,
+      "max_bus_or_truck_prob": 0.034,
+      "whole_top1": "trolleybus",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 705,
+      "file": "e0eba9e9a3fbf19546e0827da2e700eae366f3b0.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "passenger car",
+      "labels": [
+        "train"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "0bfc1d7defd32cb2385cab7a5b8e98af05674021.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.494,
+      "max_bus_or_truck_prob": 0.494,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "3dcf931d9d58bda155085e6812c01856c050d528.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "streetcar",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "73c38bed5cfcd555dfcca86336409a18bb265ae1.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "streetcar",
+      "labels": [
+        "person",
+        "train"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "7774306dbe429f42dd07a9a11b5023dd06aeaa85.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.002,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "bannister",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "9f79402da0ea39b9408d33c08eb4b65a50f9c057.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "electric locomotive",
+      "labels": [
+        "train"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "d518c18756c1e7584a3bf924180f2e8f8f08e317.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "streetcar",
+      "labels": [
+        "train"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "d809fdfb22704bdf9735ebb9d286360e62e7df6e.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.001,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "streetcar",
+      "labels": [
+        "car",
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "d8642af7deb7bed2a26277138b384c07934d9003.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.016,
+      "max_bus_or_truck_prob": 0.016,
+      "whole_top1": "streetcar",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "f23edfa41d445c410461f2416cc1979e0e5c77b3.jpeg",
+      "is_school_bus": false,
+      "bus_found": true,
+      "max_bus_prob": 0.005,
+      "max_bus_or_truck_prob": 0.005,
+      "whole_top1": "streetcar",
+      "labels": [
+        "school bus",
+        "train"
+      ]
+    },
+    {
+      "cls": 829,
+      "file": "fad28d0fa8051ea63a468da1ba358cfddd0406c3.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "streetcar",
+      "labels": [
+        "chair",
+        "person",
+        "train"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "0fdc5bd2efed9fa2d87e35a370841bd738dde599.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.003,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "1620301b390fd814409e6941dbdc8e29a2f2a776.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "car",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "2ad04155153494d3ac559fa3926b1c2c10384329.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "2c24a9bff8f6d37343a3fb274240ba160c90d76e.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "6ef34dd1d21ab589169b39a7c0348d207c7a2f62.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "garbage truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "9076c0e19d00af233265fcd535709416e7810961.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "b198554c42652c7f0870928cb715954f5a32570e.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "freight car",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "bdfdcbee57d10bdffc27cf6a10b14111c7132b81.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.001,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "person",
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "e495cd0650e9032b13c459c170c65f9ec42c36d4.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.0,
+      "whole_top1": "trailer truck",
+      "labels": [
+        "school bus"
+      ]
+    },
+    {
+      "cls": 867,
+      "file": "f6e916ca2bd644eb164384521f2e9978a449f562.jpeg",
+      "is_school_bus": false,
+      "bus_found": false,
+      "max_bus_prob": 0.0,
+      "max_bus_or_truck_prob": 0.002,
+      "whole_top1": "tow truck",
+      "labels": [
+        "school bus"
+      ]
+    }
+  ]
+}

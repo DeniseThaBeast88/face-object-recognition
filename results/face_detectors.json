@@ -1,0 +1,60 @@
+{
+  "conditions": [
+    "original",
+    "rotate 15",
+    "rotate 30",
+    "rotate 45",
+    "scale 0.5",
+    "scale 0.3",
+    "dark 0.4",
+    "bright 1.8",
+    "blur 3",
+    "blur 6",
+    "eyes covered",
+    "mask"
+  ],
+  "lfw_images": 300,
+  "detection_rate": {
+    "Haar cascade": {
+      "original": 0.9866666666666667,
+      "rotate 15": 0.81,
+      "rotate 30": 0.09666666666666666,
+      "rotate 45": 0.056666666666666664,
+      "scale 0.5": 0.99,
+      "scale 0.3": 0.8566666666666667,
+      "dark 0.4": 0.9866666666666667,
+      "bright 1.8": 0.9733333333333334,
+      "blur 3": 0.9733333333333334,
+      "blur 6": 0.9033333333333333,
+      "eyes covered": 0.6233333333333333,
+      "mask": 0.4266666666666667
+    },
+    "YuNet": {
+      "original": 1.0,
+      "rotate 15": 1.0,
+      "rotate 30": 0.9866666666666667,
+      "rotate 45": 0.7933333333333333,
+      "scale 0.5": 1.0,
+      "scale 0.3": 1.0,
+      "dark 0.4": 1.0,
+      "bright 1.8": 0.9866666666666667,
+      "blur 3": 1.0,
+      "blur 6": 0.9666666666666667,
+      "eyes covered": 0.99,
+      "mask": 0.9933333333333333
+    }
+  },
+  "coco_no_person_images": 300,
+  "false_positives_total": {
+    "Haar cascade": 58,
+    "YuNet": 3
+  },
+  "images_with_false_positive": {
+    "Haar cascade": 49,
+    "YuNet": 3
+  },
+  "ms_per_640x480": {
+    "Haar cascade": 111.85713361759306,
+    "YuNet": 11.85425656642449
+  }
+}

@@ -1,0 +1,6 @@
+# Extra packages for the tests, the evaluation scripts, and the figures
+-r requirements.txt
+pytest>=8
+pycocotools>=2.0.8
+scikit-learn>=1.5
+matplotlib>=3.9
